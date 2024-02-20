@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="C:/App/www/Formulaire/css/style.css">
+    <title>Formulaire de contact</title>
+</head>
+<body>
+
+    <!--Classe du formulaire-->
+    <div class="form">
+        <!--Classe pour centrer le fieldset-->
+        <fieldset class="centrer-fieldset">
+            <legend>Coordonnées</legend>
+            <!--Champs du formulaire-->
+            <p>Votre nom: </p><input type="text" id="NOM" name="NOM" placeholder="NOM" autocomplete="off" required>
+            <br>
+            <br>
+            <p>Prénom: </p><input type="text" id="Prénom" name="Prénom" placeholder="Prénom" required>
+            <br>
+            <br>
+            <p>Age: </p><input type="text" id="age" name="age" placeholder="Âge" required>
+            <br>
+            <br>
+            <p>Votre genre: </p><input type="radio" id="homme" name="gender" value="Homme" required>
+            <label for="homme">Homme</label>
+            <br>
+            <br>
+            <input type="radio" id="femme" name="gender" value="Femme" required>
+            <label for="femme">Femme</label>   
+            <br>
+            <br>
+            <p>Votre mail: </p><input type="email" id="email" name="email" placeholder="Votre mail" autocomplete="off" required>
+            <br>
+            <br>
+            <p>Votre adresse postale: </p><input type="text" id="adresse_postale" name="adresse postale" placeholder="Votre adresse" required>
+            <br>
+            <br>
+            <p>Votre code postal: </p><input type="text" id="code_postal" name="code_postal" maxlength="5" placeholder="Code postal" required>
+            <br>
+            <br>
+            <p>Votre ville: </p><input type="text" id="city" name="city" placeholder="Votre ville" required>
+            <br>
+            <br>
+            <p>Votre profession: </p>
+            <input type="checkbox" id="developpeur" name="metier" value="developpeur" required>
+            <label for="developpeur">Développeur</label>
+            <br>
+            <br>
+            <input type="checkbox" id="artiste" name="metier" value="artiste" required>
+            <label for="artiste">Artiste</label>
+            <br>
+            <br>
+            <input type="checkbox" id="boulanger" name="metier" value="boulanger" required>
+            <label for="boulanger">boulanger</label>
+            <br>
+            <br>
+            <p>Votre nationnalité :</p>
+            <select name="nationalite" id="nationalite"  multiple required>
+                <option value="francaise">Française</option>
+                <option value="anglaise">Anglaise</option>
+                <option value="espagnole">Espagnole</option>
+            </select>
+            <br>
+            <br>
+            <p>Date de naissance: </p><input type="date" id="date_de_naissance" name="date de naissance" required>
+            <br>
+            <br>
+            <input type="text" id="pays_de_naissance" name="pays de naissance" placeholder="Votre pays de naissance">
+            <br>
+            <br>
+            <p>Votre numéro de sécurité sociale : </p><input type="text" id="numero_de_securite_sociale" name="numéro de sécurité sociale" maxlength="15" placeholder="Votre numéro CPAM" required>
+            <br>
+            <br>
+            <input type="text" id="passeport" name="passeport" maxlength="9" placeholder="Votre n° de passport" required>
+            <br>
+            <br>
+            <p>Date de délivrance du passeport: </p><input type="date" id="date_de_delivrance" name="date de délivrance passeport" required>
+            <br>
+            <br>
+            <p>Date de validité du passeport:</p><input type="date" id="date_de_validite_passeport" name="date de validité passeport">
+            <br>
+            <br>
+            <button id="submitBtn">Envoyer</button>
+        </fieldset>
+    </div>
+    <!--Script du fichier JS-->
+    <script src="C:/App/www/Formulaire/js/script.js"></script>
+</body>
+</html>

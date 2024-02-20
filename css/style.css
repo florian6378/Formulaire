@@ -1,0 +1,34 @@
+
+/* Style général du formulaire */
+
+
+.form  {
+    width: 300px;
+    height: 900px;
+    display: grid;
+    place-items: center;
+    background-color: #F0D629; /* Appliquez la couleur de fond à l'élément .form */
+    margin-left: 45%;
+    margin-right: 45%;
+    
+}
+
+/* Caractéristique du fieldset */
+
+fieldset{
+    width: 100%;
+    height: 100%;
+    background-color: #F0D629;
+    }
+
+
+/* Caractéristique du bouton */
+.button{
+    background-color:#F0D629;
+    
+}
+
+/* Caractéristique du btn */
+.btn{
+    background-color:#F0D629;
+}
